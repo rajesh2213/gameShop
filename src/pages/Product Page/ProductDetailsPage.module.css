@@ -1,0 +1,37 @@
+.product-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-container, .right-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ 
+.price-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.discount {
+  background-color: rgb(100, 200, 234);
+  border-radius: 15px;
+}
+.discount::after {
+  content: "%";
+}
+.discount::before {
+  content: "-";
+}
+.price-wrapper p {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+}
+.price.before {
+  text-decoration: line-through;
+}

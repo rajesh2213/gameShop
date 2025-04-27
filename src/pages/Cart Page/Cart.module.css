@@ -1,0 +1,13 @@
+.cart{
+    display: flex;
+    justify-content: space-between;
+}
+.item-section{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item-container{
+    display: flex;
+}
